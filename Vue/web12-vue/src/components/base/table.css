@@ -1,0 +1,53 @@
+.m-table {
+    border-spacing: unset;
+    width: 100%;
+    border-collapse: collapse;
+    border: unset;
+    margin-top: 15px;
+    left: 15px;
+}
+
+table.m-table tr {
+    border-bottom: 1px solid #bbb;
+    height: 48px;
+}
+
+table.m-table th {
+    text-align: left;
+    width: auto;
+}
+
+table.m-table tbody tr:nth-child(2n + 1) {
+    background-color: #e9ebee;
+}
+
+table.m-table tbody tr td:first-child {
+    padding-left: 12px;
+}
+
+table.m-table tbody tr:hover {
+    background-color: #EBF9F4;
+}
+
+.head-table {
+    font-size: 15px;
+}
+
+.head-table th {
+    margin-left: 12px;
+}
+
+tbody tr td {
+    font-size: 13px;
+    /* padding-left: 12px; */
+    min-width: 100px;
+    max-width: 200px;
+}
+
+.number {
+    text-align: right;
+}
+
+.money {
+    text-align: left;
+}

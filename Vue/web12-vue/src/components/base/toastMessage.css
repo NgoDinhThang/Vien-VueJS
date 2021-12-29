@@ -1,0 +1,58 @@
+.toast-message-box {
+    display: none;
+    position: fixed;
+    width: 200px;
+    height: 100px;
+    bottom: 0px;
+    right: 0px;
+}
+
+.message-info {
+    margin-bottom: 4px;
+    border-radius: 4px;
+}
+
+.msg-box {
+    width: 200px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 1px 1px 2px 2px #ccc;
+    text-align: center;
+    line-height: 30px;
+}
+
+.msg-icon {
+    color: turquoise;
+    width: 25px;
+    height: 25px;
+    margin-left: 5px;
+}
+
+.msg-text-info {
+    color: turquoise;
+    font-size: 13px;
+}
+
+.msg-text-error {
+    color: red;
+    font-size: 13px;
+}
+
+.message-error {
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 2px;
+    border-radius: 4px;
+}
+
+.msg-cancel {
+    margin-right: 5px;
+    color: turquoise;
+}
+
+.error {
+    color: red;
+}

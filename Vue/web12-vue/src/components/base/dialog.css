@@ -1,0 +1,161 @@
+.m-dialog {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(204, 204, 204, 0.5);
+}
+
+.m-dialog-content {
+    position: absolute;
+    width: 650px;
+    height: 700px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.m-dialog-header {
+    position: relative;
+    display: flex;
+    /* padding-left: 15px; */
+    font-size: 15px;
+}
+
+.m-dialog-header .m-dialog-title {
+    padding-left: 15px;
+    margin-top: 20px;
+}
+
+.m-dialog-header .dialog-close {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    right: 5px;
+    top: 10px;
+    background-color: unset;
+    border: none;
+    color: #ccc;
+}
+
+.dialog-close:hover {
+    color: rgb(54, 52, 52);
+    cursor: pointer;
+}
+
+.m-dialog-body {
+    display: flex;
+}
+
+.dialog-body-left {
+    width: 150px;
+    height: auto;
+    justify-content: space-between;
+}
+
+.avt {
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 12.5px;
+}
+
+.detail {
+    text-align: center;
+    font-size: 12px;
+}
+
+.dialog-body-right {
+    width: 450px;
+    height: auto;
+    margin-left: 20px;
+}
+
+.row {
+    display: flex;
+    height: 60px;
+}
+
+.field {
+    width: 200px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+    outline-color: #019160;
+}
+
+select.field {
+    width: 219px;
+    height: 29px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-left: 15px;
+}
+
+.field-status {
+    margin-right: 15px;
+}
+
+.person-status {
+    display: grid;
+    margin-top: 20px;
+}
+
+.body-right-title {
+    border-bottom-width: 15px;
+}
+
+.m-dialog-footer {
+    position: absolute;
+    background-color: rgb(238, 235, 235);
+    float: left;
+    height: 80px;
+    width: 100%;
+    bottom: 0px;
+    border-radius: 0px 0px 5px 5px;
+}
+
+span {
+    color: red;
+}
+
+#salary {
+    text-align: right;
+}
+
+.m-dialog-footer button.m-button {
+    right: 24px;
+    border: unset;
+    background-image: unset;
+    min-width: 100px;
+}
+
+.icon-save {
+    position: absolute;
+    left: 20px;
+    font-size: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.m-dialog-footer button.btn-cancel {
+    right: 125px;
+    text-align: center;
+    padding-right: 40px;
+    background-color: unset;
+    color: black;
+}
+
+.m-dialog-footer button.btn-cancel:hover {
+    border: 1px solid #ccc;
+}

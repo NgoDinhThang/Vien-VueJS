@@ -1,0 +1,50 @@
+.footer {
+    display: flex;
+    width: calc(100% - 10px);
+    height: 56px;
+    background-color: whitesmoke;
+    align-items: center;
+}
+
+.footer .Trang {
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.footer .Trang button {
+    width: 25px;
+    height: 25px;
+    /* margin-top: 10px; */
+    transform: translateX(-50%);
+    margin-left: 15px;
+}
+
+.page {
+    border-radius: 50%;
+}
+
+.Trang button {
+    cursor: pointer;
+}
+
+.Trang button.icon {
+    background-color: unset;
+    border: none;
+}
+
+.Trang button.page {
+    background-color: whitesmoke;
+    border: 1px solid #ccc;
+}
+
+.hienthi {
+    position: absolute;
+    font-size: 10px;
+    margin-left: 20px;
+}
+
+.soluong {
+    position: absolute;
+    font-size: 10px;
+    right: 30px;
+}

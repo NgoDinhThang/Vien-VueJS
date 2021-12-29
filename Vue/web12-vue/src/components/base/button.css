@@ -1,0 +1,27 @@
+.m-button {
+    background-color: #019160;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #ffffff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0 16px;
+    text-align: center;
+    height: 40px;
+    background-image: url("../../assets/icon/add.png");
+    background-repeat: no-repeat;
+    background-size: 16px 16px;
+    background-position: 16px center;
+    padding-left: 40px;
+    right: 40px;
+    position: absolute;
+    margin-top: 20px;
+}
+
+.m-button:hover {
+    background-color: #2FBE8E;
+    cursor: pointer;
+}
+
+.m-button:active {
+    background-color: #01B075;
+}
